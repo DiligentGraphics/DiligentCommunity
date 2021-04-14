@@ -48,7 +48,7 @@ matrix:
 script:
 
   - cd ./BuildTools/FormatValidation
-  - . ../../../DiligentCommunity/BuildTools/Scripts/travis/validate_format.sh
+  - . ../../../DiligentCore/BuildTools/Scripts/travis/validate_format.sh
   - cd ../../..
   - |
     echo "cmake_minimum_required(VERSION 3.6)" > CMakeLists.txt
