@@ -20,7 +20,7 @@ environment:
       platform_name: Windows
 
 # clone directory
-clone_folder: c:\projects\DiligentSamples
+clone_folder: c:\projects\DiligentCommunity
 
 install:
   # clone submodules
